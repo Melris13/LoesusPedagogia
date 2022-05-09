@@ -1,0 +1,71 @@
+body, h1, h2, h3{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        text-align: center;
+}
+body::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        transform:rotateY(180deg);
+        background: url("img/Background.png") 0 0 no-repeat;
+        opacity: 0.2;
+}
+#img{
+        height: 80%;
+        border-radius: 5%;
+}
+#titre{
+        text-align: center;
+        margin-bottom: 5%;
+}
+#prix{
+      margin-top: 20%;  
+}
+#desc{
+        margin-top: 10%;
+        font-size: large;
+}
+#rate{
+        margin-top: 10%;
+}
+#next{
+        position: absolute;
+        top: 45%;
+        right: 2.5%;
+        background-color: lightgray;
+        width: 5%;
+        height: 5%;
+        border-radius: 50px;
+}
+#back{
+        position: absolute;
+        top: 45%;
+        left: 2.5%;
+        background-color: lightgray; 
+        width: 5%;
+        height: 5%;
+        border-radius: 50px;
+        border-radius: 50px;
+}
+#next > img{
+        position: absolute;
+        top: 27.5%;
+        left: 35%;
+        height: 45%;
+        width: 30%;
+}
+#back > img{
+        position: absolute;
+        top: 27.5%;
+        left: 35%;
+        height: 45%;
+        width: 30%;
+        transform: rotate(180deg);
+}
+.selector-for-some-widget {
+        box-sizing: content-box;
+}
